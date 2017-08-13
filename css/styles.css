@@ -31,9 +31,21 @@ header {
     margin: 10px auto;
 }
 
+.logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
 .logo>a {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -141,7 +153,7 @@ header {
     width: 100%;
 }
 
-.project:hover {
+.project:hover , .project:active {
     -webkit-transform: scale(1.05);
             transform: scale(1.05);
     -webkit-box-shadow: 5px 5px 3px #888888;
@@ -235,7 +247,7 @@ ul {
     background-color: #FFF;
 }
 
-.fa-facebook:hover {
+.fa-facebook:hover ,.fa-facebook:active {
     background-color: #3d5b99;
     color: #FFF
 }
@@ -247,7 +259,7 @@ ul {
     background-color: #FFF;
 }
 
-.fa-twitter:hover {
+.fa-twitter:hover ,.fa-twitter:active {
     background-color: #00aced;
     color: #FFF
 }
@@ -259,7 +271,7 @@ ul {
     background-color: #FFF;
 }
 
-.fa-linkedin:hover {
+.fa-linkedin:hover ,.fa-linkedin:active {
     background-color: #0073a4;
     color: #FFF
 }
@@ -271,7 +283,7 @@ ul {
     background-color: #FFF;
 }
 
-.fa-github:hover {
+.fa-github:hover ,.fa-github:active {
     background-color: #6e5494;
     color: #FFF
 }
@@ -283,7 +295,7 @@ ul {
     background-color: #FFF;
 }
 
-.fa-codepen:hover {
+.fa-codepen:hover ,.fa-codepen:active {
     background-color: #333;
     color: #FFF
 }
@@ -295,7 +307,7 @@ ul {
     background-color: #FFF;
 }
 
-.fa-envelope:hover {
+.fa-envelope:hover ,.fa-envelope:active {
     background-color: #bd2c00;
     color: #FFF;
 }
