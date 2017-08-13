@@ -60,6 +60,7 @@ header {
 .name {
     width: 75%;
     text-align: right;
+    margin-right: 2px;
 }
 
 .name>h1 {
@@ -316,6 +317,10 @@ ul {
 
 
 @media screen and (max-width: 500px){
+
+    .header-container {
+        font-size: 0.8em;
+    }
 
     .project-container {
         margin: auto;
